@@ -1,0 +1,31 @@
+{
+  "name": "proto2ts.parser",
+  "version": "1.0.0",
+  "description": "parsing proto-models to ts interfaces",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --p tsconfig.json",
+    "build:w": "tsc --p tsconfig.json -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolkovVlad/proto2ts.parser.git"
+  },
+  "keywords": [
+    "proto",
+    "protobuf",
+    "typescript",
+    "interfaces",
+    "parser"
+  ],
+  "author": "Vladlen Volkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolkovVlad/proto2ts.parser/issues"
+  },
+  "homepage": "https://github.com/VolkovVlad/proto2ts.parser#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  }
+}
