@@ -1,6 +1,6 @@
 {
   "name": "proto2ts.parser",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "parsing proto-models to ts interfaces",
   "main": "index.js",
   "scripts": {
